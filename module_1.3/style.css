@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+   background-color: lightgrey;
+}
+
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/791085/pexels-photo-791085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 100% 100%;
+    position: relative;
+     }
+
+ header p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: gold;
+}
+header h1{
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+}
