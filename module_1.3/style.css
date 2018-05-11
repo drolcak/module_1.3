@@ -1,27 +1,58 @@
+h2 {
+    font-size: 20px;
+}
+
 body {
     margin: 0;
    background-color: lightgrey;
+    box-sizing: border-box;
 }
 
 header {
-    max-width: 800px;
-    margin: 0 auto;
-    height: 500px;
-    background-image: url("https://images.pexels.com/photos/791085/pexels-photo-791085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/878151/pexels-photo-878151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=470");
     background-size: 100% 100%;
-    position: relative;
-     }
+    height: 350px;
+    max-width: 700px;
+    margin: 0 auto;
+    }
 
- header p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: gold;
+header p,
+header h1 {
+     color: #fff;
+     text-align: center;
 }
-header h1{
+
+header h1 {
     text-transform: uppercase;
+    }
+
+header p {
+    padding-top: 20%;
+}
+
+section {
+    padding: 0 20%;
+    background-color: red;
 }
 
 .container {
     margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+
+}
+
+.about h2 {
+    color: #2f3542;
+}
+
+iframe {
+    border: none;
+    height: 240px;
+    width: 100%;
+}
+
+.interests img{
+    width: 200px;
+    display: inline-block;
 }
