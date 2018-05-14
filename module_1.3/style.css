@@ -100,6 +100,7 @@ iframe {
 footer {
     background-color: #000000;
     color:#ffffff;
+    height: 50px;
 }
 
 footer img {
@@ -130,7 +131,8 @@ footer p:first-child {
     width: 50%;
     float: left;
     margin: 0 20px;
-    border-right: #ffffff solid 1px;
+    border-right: #ffffff solid 2px;
+    height: 18px;
 }
 
 footer a {
@@ -138,5 +140,5 @@ footer a {
 }
 
 footer p {
-    padding: 10px 20px;
+    padding: 15px;
 }
