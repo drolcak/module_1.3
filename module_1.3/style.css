@@ -1,20 +1,28 @@
 h2 {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3d3d3d;
 }
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+ }
 
 body {
     margin: 0;
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     box-sizing: border-box;
 }
 
 header {
     background-image: url("https://images.pexels.com/photos/878151/pexels-photo-878151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=470");
     background-size: 100% 100%;
+    opacity: 0.9;
     height: 350px;
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
-    }
+}
 
 header p,
 header h1 {
@@ -23,47 +31,66 @@ header h1 {
 }
 
 header h1 {
+    animation-name: whitetoblack;
+    animation-duration: 10s;
+    margin-top:-10px;
     text-transform: uppercase;
-    }
+}
 
+@keyframes whitetoblack {
+    from {color: #ffffff;}
+    to {color: #000000}
+}
 header p {
     padding-top: 15%;
-}
+    }
 
 section {
-    padding: 0 10%;
-    background-color: red;
+    padding: 0 5%;
 }
 
+section h2{
+    margin-top: 5px;
+    padding-top: 30px;
+}
 .container {
     margin: 0 auto;
-    max-width: 70%;
-
-
+    max-width: 60%;
 }
 
-.about h2 {
-    color: #2f3542;
+.about, .interests {
+    background-color: #ffffff;
 }
 
 iframe {
     border: none;
-    height: 240px;
-    width: 100%;
+    height: 320px;
+    width: 80%;
+    margin: 10px 0;
 }
 
-.interests img{
-    width: 200px;
-    display: inline-block;
+.interests a {
+   color: #3d3d3d;
+    text-decoration: none;
+}
+
+.interests a:hover{
+    color: #ffa500;
+    font-weight: 700;
 }
 
 footer {
     background-color: #000000;
     color:#ffffff;
-    text-align: center;
+    text-align: left;
 }
 
-footer a{
-    text-decoration:none;
-    color: navajowhite;
+footer img {
+    max-width: 25px;
 }
+
+.fa {
+    color: #ffffff;
+    padding: 10px 50px;
+}
+
